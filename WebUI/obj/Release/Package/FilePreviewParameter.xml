@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="StoreTesting" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Vadim\ Gil\\Documents\\Visual\ Studio\ 2015\\Projects\\CStore\\WebUI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Vadim\ Gil\\Documents\\Visual\ Studio\ 2015\\Projects\\CStore\\WebUI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="EFDbContext-Web.config Connection String" description="" value="Data Source=tcp:dc92qo5c9x.database.windows.net,1433;Initial Catalog=GameStore;User ID=SQLEXPRESS@dc92qo5c9x;Password=DB21connector;Connect Timeout=30;Encrypt=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Vadim\ Gil\\Documents\\Visual\ Studio\ 2015\\Projects\\CStore\\WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EFDbContext']/@connectionString" />
+  </parameter>
+</parameters>
